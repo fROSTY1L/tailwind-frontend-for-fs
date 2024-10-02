@@ -55,19 +55,3 @@ const Content = () => {
 }
 
 export default Content
-
-{/* {dishes.dishes.map((dish) => (
-      <>
-      <Divider orientation="left">{dish.dishTypeId}</Divider>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-        <DishCard
-          id={dish.id}
-          dishTypeId={dish.dishTypeId}
-          name={dish.name}
-          price={dish.price}
-          img={url + dish.img}
-          onAddToCart={() => handleAddToCart(dish.name)}
-        />
-      </div>
-      </>
-    ))} */}
