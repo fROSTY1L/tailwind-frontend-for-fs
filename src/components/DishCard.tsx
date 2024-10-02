@@ -2,7 +2,7 @@ import React from 'react'
 import { Dish } from '../interfaces/interfaces';
 
 
-const DishCard: React.FC<Dish> = ({ name, price, img, dishTypeId, onAddToCart }) => {
+const DishCard: React.FC<Dish> = ({ name, price, img, onAddToCart }) => {
   
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white">
