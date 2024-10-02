@@ -8,7 +8,7 @@ import { setDishes } from '../store/dishesReducer';
 import { Dish, DishType } from '../interfaces/interfaces';
 
 
-const Content = () => {
+const ContentPart = () => {
   const handleAddToCart = (dishName: string) => {
     console.log(`${dishName} добавлено в корзину`);
     
@@ -54,4 +54,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default ContentPart

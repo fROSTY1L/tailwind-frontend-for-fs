@@ -1,4 +1,4 @@
-import Content from "./layout/Content"
+import ContentPart from "./layout/ContentPart"
 import Header from "./layout/Header"
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Content/>
+      <ContentPart/>
     </>
   )
 }
